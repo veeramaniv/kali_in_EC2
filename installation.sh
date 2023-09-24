@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#1] Make sure to change the User name in EC2 -> Instances ->Your Instances -> Connect to instance→ User Name 
+#Change from Root to Kali
+#ssh -i "mackey.pem" kali@ec2-1X-1XX-5X-X2X.ap-south-1.compute.amazonaws.com
+
+
 # Prompt the user for their username
 read -p "Enter the username: " username
 
